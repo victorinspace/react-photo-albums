@@ -1,28 +1,53 @@
-.App {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  min-width: 630px;
+  max-width: 1000px;
+  height: 700px;
+  margin: 20px auto;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+.albums-view-header {
+  width: 100%;
+  background: #ccc;
+}
+
+.albums-view-header > h1 {
+  padding: 15px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
+.album-item {
+  width: 250px;
+  height: 250px;
+  border: 2px solid red;
   padding: 20px;
-  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  cursor: pointer;
 }
 
-.App-title {
-  font-size: 1.5em;
+.album-item__image {
+  width: 100px;
+  height: 100px;
+  display: block;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.album-item > h3 {
+  padding: 15px 0;
+  display: block;
 }
