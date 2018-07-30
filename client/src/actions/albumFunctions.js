@@ -1,9 +1,3 @@
-import photos from '../../../db.json'
+import axios from 'axios'
 
-export function getAllPhotos() {
-	return photos
-}
-
-export function getAlbumPhotos(id) {
-	return photos.find(user => user.id == id)
-}
+export default function getAlbumCovers

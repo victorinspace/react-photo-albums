@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
-
-// import 'home page' as Album List
-import AlbumsList from './AlbumsList'
-// <Route path='/album/:id' component={Album} />
-
-// import Photo from './Photo'
-// <Route path='/photo/:id' component={Photo} />
+import AlbumsView from './AlbumsView'
+import EachAlbum from './EachAlbum'
+import EachPhoto from './EachPhoto'
 
 class App extends Component {
   render() {
     return (
-     <Router>
-      <div>
-          <Route exact path='/' component={AlbumsList} />
-      </div>
-     </Router> 
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component={AlbumsView} />
+            <Route path="/albums/:id" component={EachAlbum} />
+            <Route path="/photos/:id" component={EachPhoto} />
+          </Switch>
+        </div>
+      </Router>
     )
   }
 }
