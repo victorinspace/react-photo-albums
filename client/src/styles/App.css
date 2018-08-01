@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.albums img {
+  width: 150px;
+}
+
+.albums {
+  list-style: none;
+  padding-left: none;
+  display: flex;
+}
+
+.albums li {
+  margin: 10px;
+}
+
+.albums p {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
