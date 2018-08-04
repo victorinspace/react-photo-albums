@@ -2,107 +2,107 @@
    "albums": [
       {
          "id": 1,
-         "albumTitle": "Motorcylces",
-         "albumCover": "https://images.unsplash.com/photo-1515777315835-281b94c9589f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7f5be7426b38c2beb36bb55521179a1&auto=format&fit=crop&w=1087&q=80"
+         "name": "Motorcylces",
+         "image": "https://images.unsplash.com/photo-1515777315835-281b94c9589f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7f5be7426b38c2beb36bb55521179a1&auto=format&fit=crop&w=1087&q=80"
       },
       {
          "id": 2,
-         "albumTitle": "Art",
-         "albumCover": "https://images.unsplash.com/photo-1453814235491-3cfac3999928?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f05da4077424625439e156f87d204797&auto=format&fit=crop&w=1050&q=80"
+         "name": "Art",
+         "image": "https://images.unsplash.com/photo-1453814235491-3cfac3999928?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f05da4077424625439e156f87d204797&auto=format&fit=crop&w=1050&q=80"
       },
       {
          "id": 3,
-         "albumTitle": "Music",
-         "albumCover": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2fb8b0a55fc0a9a390e5ebf78492f154&auto=format&fit=crop&w=1052&q=80"
+         "name": "Music",
+         "image": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2fb8b0a55fc0a9a390e5ebf78492f154&auto=format&fit=crop&w=1052&q=80"
       },
       {
          "id": 4,
-         "albumTitle": "Travel",
-         "albumCover": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aaf08554d638e2690a4383bf1c632d93&auto=format&fit=crop&w=649&q=80"
+         "name": "Travel",
+         "image": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aaf08554d638e2690a4383bf1c632d93&auto=format&fit=crop&w=649&q=80"
       },
       {
          "id": 5,
-         "albumTitle": "Puppies",
-         "albumCover": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1cf9c13e09f5f2ec5139b6475751b310&auto=format&fit=crop&w=1050&q=80"
+         "name": "Puppies",
+         "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1cf9c13e09f5f2ec5139b6475751b310&auto=format&fit=crop&w=1050&q=80"
       },
       {
          "id": 6,
-         "albumTitle": "Space",
-         "albumCover": "https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a1bca94717c3a2c1c721a72da13d63f&auto=format&fit=crop&w=1083&q=80"
+         "name": "Space",
+         "image": "https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a1bca94717c3a2c1c721a72da13d63f&auto=format&fit=crop&w=1083&q=80"
       }
    ],
    "photos": [
       {
          "albumId": 1,
          "id": 1,
-         "imageUrl": "https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de61a3255df086f48b0c37f901705452&auto=format&fit=crop&w=1050&q=80",
-         "imageTitle": "Orange Harley Davidson"
+         "image": "https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de61a3255df086f48b0c37f901705452&auto=format&fit=crop&w=1050&q=80",
+         "name": "Orange Harley Davidson"
       },
       {
          "albumId": 1,
          "id": 2,
-         "image_url": "https://images.unsplash.com/photo-1481575184241-4754ea78a1bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43ef14759d037ced9ac9eadb56073185&auto=format&fit=crop&w=1050&q=80",
-         "image_title": "Black Harley Davidson"
+         "image": "https://images.unsplash.com/photo-1481575184241-4754ea78a1bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43ef14759d037ced9ac9eadb56073185&auto=format&fit=crop&w=1050&q=80",
+         "name": "Black Harley Davidson"
       },
       {
          "albumId": 1,
          "id": 3,
-         "image_url": "https://images.unsplash.com/photo-1499324803384-8dd2eacc327f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=162dc369e0e34126aa07e1807108bf61&auto=format&fit=crop&w=1500&q=80",
-         "image_title": "Sunset"
+         "image": "https://images.unsplash.com/photo-1499324803384-8dd2eacc327f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=162dc369e0e34126aa07e1807108bf61&auto=format&fit=crop&w=1500&q=80",
+         "name": "Sunset"
       },
       {
          "albumId": 2,
          "id": 1,
-         "image_url": "https://images.unsplash.com/photo-1453814235491-3cfac3999928?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f05da4077424625439e156f87d204797&auto=format&fit=crop&w=1050&q=80",
-         "image_title": "Mural of woman’s neon face"
+         "image": "https://images.unsplash.com/photo-1453814235491-3cfac3999928?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f05da4077424625439e156f87d204797&auto=format&fit=crop&w=1050&q=80",
+         "name": "Mural of woman’s neon face"
       },
       {
          "albumId": 2,
          "id": 2,
-         "image_url": "https://images.unsplash.com/photo-1514575619841-1a3d949d3277?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377838fd391288c5debdc45adf79f274&auto=format&fit=crop&w=564&q=80",
-         "image_title": "Color Splash"
+         "image": "https://images.unsplash.com/photo-1514575619841-1a3d949d3277?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377838fd391288c5debdc45adf79f274&auto=format&fit=crop&w=564&q=80",
+         "name": "Color Splash"
       },
       {
          "albumId": 2,
          "id": 3,
-         "image_url": "https://images.unsplash.com/photo-1493210977798-4f655ac200a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ba16f7a4d01403185df43e9c56f9edbe&auto=format&fit=crop&w=862&q=80",
-         "image_title": "Opening Colors"
+         "image": "https://images.unsplash.com/photo-1493210977798-4f655ac200a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ba16f7a4d01403185df43e9c56f9edbe&auto=format&fit=crop&w=862&q=80",
+         "name": "Opening Colors"
       },
       {
          "albumId": 3,
          "id": 1,
-         "image_url": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2fb8b0a55fc0a9a390e5ebf78492f154&auto=format&fit=crop&w=1052&q=80",
-         "image_title": "Boombox"
+         "image": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2fb8b0a55fc0a9a390e5ebf78492f154&auto=format&fit=crop&w=1052&q=80",
+         "name": "Boombox"
       },
       {
-         "album_id": 3,
+         "albumId": 3,
          "id": 2,
-         "image_url": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2891f249f4ef797292704c77ab664a59&auto=format&fit=crop&w=1500&q=80",
-         "image_title": "Band members in yellow lights"
+         "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2891f249f4ef797292704c77ab664a59&auto=format&fit=crop&w=1500&q=80",
+         "name": "Band members in yellow lights"
       },
       {
-         "album_id": 3,
+         "albumId": 3,
          "id": 3,
-         "image_url": "https://images.unsplash.com/photo-1505218795627-2b9746a5343f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8bc0e1b3ca27368acca40120c0496310&auto=format&fit=crop&w=675&q=80",
-         "image_title": "BACH to scales"
+         "image": "https://images.unsplash.com/photo-1505218795627-2b9746a5343f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8bc0e1b3ca27368acca40120c0496310&auto=format&fit=crop&w=675&q=80",
+         "name": "BACH to scales"
       },
       {
          "albumId": 4,
          "id": 1,
-         "image_url": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aaf08554d638e2690a4383bf1c632d93&auto=format&fit=crop&w=649&q=80",
-         "image_title": "Shooting Stars and Dwarf Galaxies"
+         "image": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aaf08554d638e2690a4383bf1c632d93&auto=format&fit=crop&w=649&q=80",
+         "name": "Shooting Stars and Dwarf Galaxies"
       },
       {
-         "album_id": 4,
+         "albumId": 4,
          "id": 2,
-         "image_url": "https://images.unsplash.com/photo-1499756630622-6a7fd76720ab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c5bc78aa7c0ce8886348515dd8cd117&auto=format&fit=crop&w=700&q=80",
-         "image_title": "The view from up here"
+         "image": "https://images.unsplash.com/photo-1499756630622-6a7fd76720ab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c5bc78aa7c0ce8886348515dd8cd117&auto=format&fit=crop&w=700&q=80",
+         "name": "The view from up here"
       },
       {
-         "album_id": 4,
+         "albumId": 4,
          "id": 3,
-         "image_url": "https://images.unsplash.com/photo-1522985225914-17a10a58c8ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a63eaa7c5bd008cf2d05a3d98c2c6bed&auto=format&fit=crop&w=634&q=80",
-         "image_title": "In the midst of darkness"
+         "image": "https://images.unsplash.com/photo-1522985225914-17a10a58c8ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a63eaa7c5bd008cf2d05a3d98c2c6bed&auto=format&fit=crop&w=634&q=80",
+         "name": "In the midst of darkness"
       },
       {
          "albumId": 5,
@@ -111,34 +111,34 @@
          "image_title": "Golden Puppy"
       },
       {
-         "album_id": 5,
+         "albumId": 5,
          "id": 2,
-         "image_url": "https://images.unsplash.com/photo-1518914781460-a3ada465edec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4ef5d25894ba45b504a8335e1faf50ca&auto=format&fit=crop&w=1050&q=80",
-         "image_title": "Precious"
+         "image": "https://images.unsplash.com/photo-1518914781460-a3ada465edec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4ef5d25894ba45b504a8335e1faf50ca&auto=format&fit=crop&w=1050&q=80",
+         "name": "Precious"
       },
       {
-         "album_id": 5,
+         "albumId": 5,
          "id": 3,
-         "image_url": "https://images.unsplash.com/photo-1518374835801-2c7d993de05c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0cdbaa9913e59eb0c285988c54554631&auto=format&fit=crop&w=634&q=80",
-         "image_title": "Cute Luggage"
+         "image": "https://images.unsplash.com/photo-1518374835801-2c7d993de05c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0cdbaa9913e59eb0c285988c54554631&auto=format&fit=crop&w=634&q=80",
+         "name": "Cute Luggage"
       },
       {
          "albumId": 6,
          "id": 1,
-         "image_url": "https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a1bca94717c3a2c1c721a72da13d63f&auto=format&fit=crop&w=1083&q=80",
-         "image_title": "Natures Fireworks"
+         "image": "https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a1bca94717c3a2c1c721a72da13d63f&auto=format&fit=crop&w=1083&q=80",
+         "name": "Natures Fireworks"
       },
       {
-         "album_id": 6,
+         "albumId": 6,
          "id": 2,
-         "image_url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1f8f8a17194030f5bf45f3e14fee725e&auto=format&fit=crop&w=827&q=80",
-         "image_title": "Galaxy"
+         "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1f8f8a17194030f5bf45f3e14fee725e&auto=format&fit=crop&w=827&q=80",
+         "name": "Galaxy"
       },
       {
-         "album_id": 6,
+         "albumId": 6,
          "id": 3,
-         "image_url": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6c18d87b91cee85cbe63912304dba923&auto=format&fit=crop&w=1050&q=80",
-         "image_title": "Looking at the Stars"
+         "image": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6c18d87b91cee85cbe63912304dba923&auto=format&fit=crop&w=1050&q=80",
+         "name": "Looking at the Stars"
       }
    ]
 }

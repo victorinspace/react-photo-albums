@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import { getAlbums } from '../actions/albumFunctions.js'
+import { getAlbums } from '../actions/albums.js'
 import { Link } from 'react-router-dom'
 
-/* Container Component */
 class AlbumsContainer extends Component {
   state = {
     albums: []
@@ -18,14 +17,11 @@ class AlbumsContainer extends Component {
 
   render() {
     return (
-      <div>
-        <Albums Albums={this.state.albums} />
-      </div>
+      <Albums albums={this.state.albums} />
     )
   }
 }
 
-/* Presentational Component */
 const Albums = props => (
   <div>
     <h1>My Photo Albums</h1>
@@ -33,8 +29,8 @@ const Albums = props => (
       {props.albums.map(album => (
         <li key={`album${album.id}`}>
           <Link to={`/album/${album.id}`}>
-            <img src={album.albumCover} alt=""/>
-            <p>{album.albumTitle}</p>
+          <img src={album.image} />
+          <p>{album.name}</p>
           </Link>
         </li>
       ))}
@@ -42,7 +38,7 @@ const Albums = props => (
   </div>
 )
 
-/* Ensure default 'albums' array */
+// Make sure 'albums' is always an array
 Albums.defaultProps = {
   albums: []
 }

@@ -9,9 +9,9 @@
 }
 
 .albums {
+  display: flex;
   list-style: none;
   padding-left: none;
-  display: flex;
 }
 
 .albums li {
