@@ -23,7 +23,7 @@ class AlbumsContainer extends Component {
 }
 
 const Albums = props => (
-  <div>
+  <div className="albums-container">
     <h1>My Photo Albums</h1>
     <ul className="albums">
       {props.albums.map(album => (

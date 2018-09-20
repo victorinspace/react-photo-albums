@@ -26,6 +26,16 @@ body {
   background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
 }
 
+/* MAIN ALBUMS VIEW */
+.albums-container {
+  padding: 20px;
+
+  /*testing*/
+  /*border: 3px solid blue;*/
+  /*width: 75%;*/
+  margin: 0 auto;
+}
+
 .albums img {
   width: 150px;
   border: 5px solid #fff;
@@ -36,10 +46,16 @@ body {
   display: flex;
   list-style: none;
   padding-left: none;
+
+  /*testing*/
+  /*border: 2px solid red;*/
 }
 
 .albums li {
   margin: 10px;
+
+  /*testing*/
+  /*border: 2px solid yellow;*/
 }
 
 .albums p {
